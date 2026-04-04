@@ -1,0 +1,76 @@
+import { useState } from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import { Link } from 'react-router'
+import BLUEANGELS from './assets/BLUEANGELS.png'
+
+export default function Introduction() {
+  return (
+    <>
+          <Header />
+          <header>
+                <nav>
+                    <Link to="/">Home </Link>
+                    <Link to="/Contract">Contract </Link>
+                    <Link to="/Survey">Survey </Link>
+                    <Link to="/Cards">Cards </Link>
+                    <Link to="/Inventory">Inventory </Link>
+                    <Link to="/Documentation">Documentation </Link>
+          <Link to="/Product">Product </Link>
+          <Link to="/Introduction">Introduction </Link>
+                </nav>
+      </header>
+<p>I understand that what I put here is publicly available on the web and I won’t put anything here I don’t want the public to see - <i>Arthur Soong - 2026-01-14</i></p>
+        <h2>Arthur E. Soong | Annoyed Stoat</h2>
+        <figure>
+              <img src={BLUEANGELS} width = "500" alt = "US Navy fighter jets at a airshow"/>
+        <figcaption><i>A photo I took of F/A-18s from the US Navy Blue Angels during an airshow</i></figcaption>
+        </figure>
+        <p>I am a Sophomore at UNC Charlotte studying computer science with a concentration in cyber security. I hope to learn more about front-end systems and development.</p>
+        <ul>
+            <li>
+                <strong>Personal Background: </strong>I am 20 years old, I love working with computers and they have always been a subject that fascinated me. 
+            </li>
+            <li>
+                <strong>Professional Background: </strong>I am hoping to acquire my bachelor’s degree in computer science and get a job in cyber security. 
+            </li>
+            <li>
+                <strong>Academic Background: </strong>I am a Sophomore at UNC Charlotte studying computer science with a concentration in cyber security.
+            </li>
+            <li>
+                <strong>Background in this subject: </strong>I have some limited experience in designing and building websites in HTML, CSS, and Javascript.
+            </li>
+            <li>
+                <strong>Primary work computer: </strong>Laptop, ASUS ROG G16 2024, Windows 11 OS, currently in my apartment. 
+            </li>
+            <li>
+                <strong>Backup work computer: </strong>I will go to the library and get a loaner or use the desktops there.
+            </li>
+            <li>
+                <strong>Current courses: </strong>
+                <ol>
+                    <li>ITSC 3155: Software Engineering, Required course, it’s also interesting</li>
+
+                    <li>ITSC 3146: Operating Systems, Required course, and it is interesting</li>
+
+                    <li>ITIS 3200: Intro to Info Security, Required course, also very interesting</li>
+
+                    <li>ITIS 3135: Web Development, Required course, it is also interesting</li>
+
+                    <li>CAPI 1501: Intro to Social Science, Required elective, I find social sciences interesting too</li>
+                </ol>
+            </li>
+            <li>
+                <strong>Funny/Interesting thing about me: </strong>I cannot stand the taste of apples.
+            </li>
+            <li>
+                <strong>I’d also like to share: </strong>I have some limited experience in front-end development but I definitely still have a lot to learn.
+            </li>
+        </ul>
+        <blockquote cite="https://www.socratic-method.com/quote-meanings-interpretations/friedrich-nietzsche-without-music-life-would-be-a-mistake-2">
+            <q>Without music, life would be a mistake.</q> <cite> - Friedrich Nietzsche</cite>
+        </blockquote>
+      <Footer />
+    </>
+  );
+}
