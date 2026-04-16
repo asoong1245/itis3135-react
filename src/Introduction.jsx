@@ -3,8 +3,10 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
 import BLUEANGELS from './assets/BLUEANGELS.png'
+import { useTitle } from './titleFunc'
 
 export default function Introduction() {
+    useTitle("Introduction")
   return (
     <>
           <Header />

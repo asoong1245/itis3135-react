@@ -2,8 +2,10 @@ import { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
+import { useTitle } from './titleFunc';
 
 export default function Survey() {
+  useTitle("Survey")
   return (
     <>
       <Header />

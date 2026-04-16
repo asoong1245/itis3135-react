@@ -3,8 +3,10 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
 import "./documentationcss.css";
+import { useTitle } from './titleFunc'
 
 export default function Documentation() {
+    useTitle("Documentation")
     return (
         <>
             <main id="main-doc">

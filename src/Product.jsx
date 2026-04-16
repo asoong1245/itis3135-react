@@ -3,8 +3,10 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
 import "./productcss.css";
+import { useTitle } from './titleFunc';
 
 export default function Product() {
+  useTitle("Product")
   return (
     <>
       

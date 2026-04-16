@@ -3,8 +3,10 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
 import "./cardscss.css";
+import { useTitle } from './titleFunc'
 
 export default function Cards() {
+    useTitle("Cards")
     return (
         <>
             <Header />

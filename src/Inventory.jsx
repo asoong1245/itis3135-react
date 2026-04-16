@@ -3,8 +3,10 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
 import "./inventorycss.css";
+import { useTitle } from './titleFunc'
 
 export default function Inventory() {
+    useTitle("Inventory")
     return (
         <div id="inventorybody">
 

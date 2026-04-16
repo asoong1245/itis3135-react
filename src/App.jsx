@@ -2,9 +2,12 @@ import { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router'
+import { useTitle } from './titleFunc'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  useTitle("Home")
 
   return (
     <>
