@@ -10,18 +10,6 @@ export default function Survey() {
     <>
       <Header />
 
-        <header>
-                <nav>
-                    <Link to="/">Home </Link>
-                    <Link to="/Contract">Contract </Link>
-                    <Link to="/Survey">Survey </Link>
-                    <Link to="/Cards">Cards </Link>
-                    <Link to="/Inventory">Inventory </Link>
-                    <Link to="/Documentation">Documentation </Link>
-          <Link to="/Product">Product </Link>
-          <Link to="/Introduction">Introduction </Link>
-                </nav>
-      </header>
 
       <h1 id="title">Annoyed Stoat Pest Control Company Report</h1>
 

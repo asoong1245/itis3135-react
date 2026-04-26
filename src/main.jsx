@@ -11,6 +11,7 @@ import Product from "./Product"
 import Contract from './Contract.jsx'
 import Introduction from './Introduction.jsx'
 import Itsc3135 from './Itsc3135.jsx'
+import Slideshow from './slideshow.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById("root")).render(
         <Route path='/contract' element={<Contract />}></Route>
         <Route path='/introduction' element={<Introduction />}></Route>
         <Route path='/itsc3135' element={<Itsc3135 />}></Route>
+        <Route path='/slideshow' element={<Slideshow />}></Route>
       </Routes>
       </HashRouter>
   </StrictMode>,

@@ -10,18 +10,7 @@ export default function Introduction() {
   return (
     <>
           <Header />
-          <header>
-                <nav>
-                    <Link to="/">Home </Link>
-                    <Link to="/Contract">Contract </Link>
-                    <Link to="/Survey">Survey </Link>
-                    <Link to="/Cards">Cards </Link>
-                    <Link to="/Inventory">Inventory </Link>
-                    <Link to="/Documentation">Documentation </Link>
-          <Link to="/Product">Product </Link>
-          <Link to="/Introduction">Introduction </Link>
-                </nav>
-      </header>
+
 <p>I understand that what I put here is publicly available on the web and I won’t put anything here I don’t want the public to see - <i>Arthur Soong - 2026-01-14</i></p>
         <h2>Arthur E. Soong | Annoyed Stoat</h2>
         <figure>

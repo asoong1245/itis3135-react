@@ -12,18 +12,7 @@ export default function Documentation() {
             <main id="main-doc">
             <Header />
             
-            <header>
-                <nav>
-                    <Link to="/">Home </Link>
-                    <Link to="/Contract">Contract </Link>
-                    <Link to="/Survey">Survey </Link>
-                    <Link to="/Cards">Cards </Link>
-                    <Link to="/Inventory">Inventory </Link>
-                    <Link to="/Documentation">Documentation </Link>
-          <Link to="/Product">Product </Link>
-          <Link to="/Introduction">Introduction </Link>
-                </nav>
-      </header>
+
 
             <nav id="navbar">
                 <header>Annoyed Stoat Docs</header>
